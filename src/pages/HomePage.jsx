@@ -1,11 +1,11 @@
 import React from 'react'
-import GradientButtonToBottom from '../components/HomePageComponents/Filter/GradientButtonToBottom'
 import GradientButtonToRight from '../components/HomePageComponents/GradientButtonToRight'
+import SearchIcon from '../components/HomePageComponents/Filter/SearchIcon'
 
 const HomePage = () => {
   return (
     <div className='text-4xl'>
-      
+      <SearchIcon />
     </div>
   )
 }
