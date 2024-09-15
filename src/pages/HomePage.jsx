@@ -4,8 +4,8 @@ import GradientButtonToRight from '../components/HomePageComponents/GradientButt
 
 const HomePage = () => {
   return (
-    <div>
-      
+    <div className='text-4xl'>
+      Homepagesfklkslkflsklklklsklfklsk
     </div>
   )
 }
