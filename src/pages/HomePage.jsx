@@ -1,5 +1,5 @@
 import React from 'react'
-import GradientButtonToBottom from '../components/HomePageComponents/GradientButtonToBottom'
+import GradientButtonToBottom from '../components/HomePageComponents/Filter/GradientButtonToBottom'
 import GradientButtonToRight from '../components/HomePageComponents/GradientButtonToRight'
 
 const HomePage = () => {
