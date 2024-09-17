@@ -1,12 +1,10 @@
 import React from 'react'
-import GradientButtonToRight from '../components/HomePageComponents/GradientButtonToRight'
-import SearchIcon from '../components/HomePageComponents/Filter/SearchIcon'
-import SearchInput from '../components/HomePageComponents/Filter/SearchInput'
+import TypeOfHouseDropDown from '../components/HomePageComponents/Filter/TypeOfHouseDropDown'
 
 const HomePage = () => {
   return (
     <div className='text-4xl'>
-      <SearchInput />
+      <TypeOfHouseDropDown />
     </div>
   )
 }
