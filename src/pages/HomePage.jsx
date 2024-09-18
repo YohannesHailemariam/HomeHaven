@@ -1,13 +1,24 @@
 import React from 'react'
-import GradientButtonToRight from '../components/HomePageComponents/GradientButtonToRight'
-import SearchIcon from '../components/HomePageComponents/Filter/SearchIcon'
 import SearchInput from '../components/HomePageComponents/Filter/SearchInput'
+import Header from '../components/HomePageComponents/header';
+import ExperienceCard from '../components/DetailsPageComponents/ExperienceCard';
+
 
 const HomePage = () => {
+  console.log('hello');
   return (
-    <div className='text-4xl'>
-      <SearchInput />
+    
+    <>
+    <Header/>
+    <ExperienceCard/>
+    <div>
+      hello
     </div>
+      <div className='text-4xl'>
+        <SearchInput />
+      </div>
+    </>
+
   )
 }
 
