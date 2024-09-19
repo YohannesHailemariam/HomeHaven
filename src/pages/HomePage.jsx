@@ -1,10 +1,10 @@
 import React from 'react'
-import Price from '../components/HomePageComponents/Filter/Price'
+import Filter from '../components/HomePageComponents/Filter/Filter'
 
 const HomePage = () => {
   return (
     <div className='text-4xl'>
-      <Price />
+      <Filter />
     </div>
   )
 }
