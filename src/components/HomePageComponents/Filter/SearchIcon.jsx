@@ -4,7 +4,7 @@ import '../../../../src/App.css'
 
 const SearchIcon = () => {
   return (
-    <div>
+    <div className='mt-3'>
         <IoSearch className='w-[63px] h-[56px]'/>
     </div>
   )
