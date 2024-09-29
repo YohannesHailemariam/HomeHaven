@@ -11,7 +11,9 @@ import Details from './pages/Details'
 
 const App = () => {
   return (
+
     <Routes>
+      
       <Route path='/' element={<HomePage />}></Route>
       <Route path='/advert' element={<Advert />}></Route>
       <Route path='/faq' element={<FAQ />}></Route>
