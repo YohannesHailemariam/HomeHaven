@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from '../components/HomePageComponents/header';
-import ExperienceCard from '../components/DetailsPageComponents/ExperienceCard';
 
 import Filter from '../components/HomePageComponents/Filter/Filter'
 
@@ -9,7 +8,6 @@ const HomePage = () => {
   return (
     <>
       <Header />
-      <ExperienceCard />
     </>
   )
 }
