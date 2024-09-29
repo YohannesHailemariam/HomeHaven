@@ -50,7 +50,7 @@ const ExperienceCard = () => {
     <div className="m-auto my-10">
       <Slider {...settings}>
         {ExperienceData.map((item, index) => (
-          <div key={index} className="p-4 w-[350px] h-[300px] gap-y-2 border-2 rounded-2xl shadow-lg mx-4">
+          <div key={index} className="p-4 max-w-[400px] h-[300px] gap-y-2 border-2 rounded-2xl shadow-lg mx-4">
             <div className="flex items-start gap-x-4 mb-4">
               <div className="w-14 h-14">
                 <img src="profile-1.jpeg" alt="Profile" className="w-full h-full rounded-full object-cover" />
