@@ -8,21 +8,11 @@ import Filter from '../components/HomePageComponents/Filter/Filter'
 const HomePage = () => {
   console.log('hello');
   return (
-    <div className='text-4xl'>
-      <Filter />
-    </div>
-    
     <>
-    <Header/>
-    <ExperienceCard/>
-    <div>
-      hello
-    </div>
-      <div className='text-4xl'>
-        <SearchInput />
-      </div>
+      <Header />
+      {/* <Filter /> */}
+      <ExperienceCard />
     </>
-
   )
 }
 
