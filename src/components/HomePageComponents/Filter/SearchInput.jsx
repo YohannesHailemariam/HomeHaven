@@ -2,7 +2,7 @@ import React from 'react'
 
 const SearchInput = () => {
   return (
-    <div  className='mt-7'>
+    <div  className='mt-7 ml-5'>
         <div className='flex flex-row gap-x-1'>
             <input type='text' placeholder=' Search by Location' className=' outline-none text-lg mt-[-5px]'/>
         </div>

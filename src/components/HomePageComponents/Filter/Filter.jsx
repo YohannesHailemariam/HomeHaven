@@ -10,7 +10,7 @@ import VerticalLine from '../Filter/VerticalLine'
 
 const Filter = () => {
   return (
-    <div className='w-fit border rounded-[40px] shadow-lg p-3 flex flex-row gap-x-7'>
+    <div className='w-fit border rounded-[40px] bg-white shadow-lg p-3 flex flex-row gap-x-7'>
         <SearchInput/>
         <VerticalLine />
         <TypeOfHouseDropDown />
